@@ -1,9 +1,9 @@
-"use client"; // Required for useState in Next.js App Router
+"use client"; 
 import { useState } from "react";
 import Image from "next/image";
 
 const Dogbreedingservices = () => {
-  // 1. Data structure for the services
+
   const services = [
     {
       id: "obedience",
@@ -79,7 +79,6 @@ const Dogbreedingservices = () => {
     },
   ];
 
-  // 2. State to track which service is selected (Default to 'breeding' like your image)
   const [activeTab, setActiveTab] = useState(services[5]);
 
   return (
@@ -139,7 +138,7 @@ const Dogbreedingservices = () => {
           <div className="flex justify-center lg:justify-end">
             <div className="relative w-full aspect-video rounded-xl overflow-hidden shadow-2xl">
               <video
-                key={activeTab.id} // This key forces the video to reload when the tab changes
+                key={activeTab.id}
                 src={activeTab.video}
                 loop
                 autoPlay
