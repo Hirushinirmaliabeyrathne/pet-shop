@@ -50,7 +50,7 @@ const AboutDeutschlandpage = () => {
 
     {/* Woman 2 - Bottom Overlapping Layer */}
     <div 
-        className="absolute z-20 overflow-hidden border-10 border-white shadow-xl"
+        className="absolute z-20 overflow-hidden border-10 border-white"
         style={{
             width: '270px',
             height: '270px',
@@ -64,8 +64,7 @@ const AboutDeutschlandpage = () => {
             src="/images/woman2.jpg" 
             alt="woman 2" 
             fill
-            className="object-cover"
-            /* Note: We keep the image upright even if the container had a rotation value in Figma */
+            className="object-cover rounded"
         />
     </div>
 
