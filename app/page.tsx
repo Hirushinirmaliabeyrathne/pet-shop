@@ -4,6 +4,7 @@ import Herosection from "@/components/Herosection";
 import NavbarPage from "@/components/Navbar";
 import Ourachivementpage from "@/components/Ourachivement";
 import Ourpuppymoments from "@/components/Ourpuppymoments";
+import Storyofpuppies from "@/components/storyofpuppies";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
     <Ourachivementpage/>
     <Dogbreedingservices/>
     <Ourpuppymoments/>
+    <Storyofpuppies/>
    </>
   );
 }
