@@ -1,4 +1,5 @@
 import AboutDeutschlandpage from "@/components/aboutDeutschland";
+import CommentsPage from "@/components/comments";
 import Dogbreedingservices from "@/components/dogbreedingservices";
 import Herosection from "@/components/Herosection";
 import NavbarPage from "@/components/Navbar";
@@ -17,6 +18,7 @@ export default function Home() {
     <Dogbreedingservices/>
     <Ourpuppymoments/>
     <Storyofpuppies/>
+    <CommentsPage/>
    </>
   );
 }
