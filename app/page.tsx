@@ -5,6 +5,7 @@ import Herosection from "@/components/Herosection";
 import NavbarPage from "@/components/Navbar";
 import Ourachivementpage from "@/components/Ourachivement";
 import Ourpuppymoments from "@/components/Ourpuppymoments";
+import QuestionsPage from "@/components/questions";
 import Storyofpuppies from "@/components/storyofpuppies";
 
 
@@ -19,6 +20,7 @@ export default function Home() {
     <Ourpuppymoments/>
     <Storyofpuppies/>
     <CommentsPage/>
+    <QuestionsPage/>
    </>
   );
 }
