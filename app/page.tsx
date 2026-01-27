@@ -1,6 +1,7 @@
 import AboutDeutschlandpage from "@/components/aboutDeutschland";
 import CommentsPage from "@/components/comments";
 import Dogbreedingservices from "@/components/dogbreedingservices";
+import GoogleMap from "@/components/GoogleMap";
 import Herosection from "@/components/Herosection";
 import NavbarPage from "@/components/Navbar";
 import Ourachivementpage from "@/components/Ourachivement";
@@ -10,6 +11,7 @@ import Storyofpuppies from "@/components/storyofpuppies";
 
 
 export default function Home() {
+
   return (
    <>
    <NavbarPage/>
@@ -21,6 +23,7 @@ export default function Home() {
     <Storyofpuppies/>
     <CommentsPage/>
     <QuestionsPage/>
+    <GoogleMap  />
    </>
   );
 }
