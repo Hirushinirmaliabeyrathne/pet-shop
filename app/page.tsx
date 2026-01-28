@@ -8,6 +8,7 @@ import Ourachivementpage from "@/components/Ourachivement";
 import Ourpuppymoments from "@/components/Ourpuppymoments";
 import QuestionsPage from "@/components/questions";
 import Storyofpuppies from "@/components/storyofpuppies";
+import FooterPage from "./footer/FooterPage";
 
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
     <CommentsPage/>
     <QuestionsPage/>
     <GoogleMap  />
+    <FooterPage/>
    </>
   );
 }
